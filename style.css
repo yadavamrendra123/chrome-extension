@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: 2px solid green;
+    padding: 10px;
+   
+}
+
+button{
+    width: 150px;
+    margin-top: 10px;
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#box{
+    background: gray;
+    width: 500px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+
+}
+
+li{
+   margin-top: 5px;
+}
+
+li a{
+    color: green;
+}
+
+#delete-btn{
+    background: white;
+    color: green;
+    cursor: pointer;
+    border: 1px solid green;
+}
